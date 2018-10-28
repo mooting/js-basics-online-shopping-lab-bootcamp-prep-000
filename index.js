@@ -16,7 +16,7 @@ function addToCart(item) {
 
 function viewCart() {
   if( cart.length > 0 ) {
-    let cartString = `In your cart, you have ${ cart[cart.length - 1].itemName } at $${ cart[cart.length - 1].itemPrice }`
+    let cartString = `In your cart, you have ${ cart[1].itemName } at $${ cart[1].itemPrice }`
     for (let i = 1; i < cart.length - 1; i++)
       cartString = `${ cartString }, ${ cart[i].itemName } at ${ cart[i].itemPrice }`
 
