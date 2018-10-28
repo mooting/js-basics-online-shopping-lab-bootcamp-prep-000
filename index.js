@@ -53,8 +53,8 @@ function placeOrder(cardNumber) {
   if( cardNumber === undefined )
     return `Sorry, we don't have a credit card on file for you.`
   else{
-    let total = total()
+    var returnTotal = total()
     cart = []
-    return total
+    return returnTotal
   }
 }
