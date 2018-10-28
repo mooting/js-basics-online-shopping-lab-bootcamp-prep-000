@@ -56,5 +56,5 @@ function placeOrder(cardNumber) {
     let total = total()
     cart = []
     return total
-  }  
+  }
 }
